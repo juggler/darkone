@@ -1,0 +1,8 @@
+= Dark one
+
+Dark theme for Propane (Mac OS X Campfire client)
+
+== Installation
+
+Copy cf_chat.css to this folder:
+  ~/Library/Application Support/Propane/styles/
