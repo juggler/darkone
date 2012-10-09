@@ -136,11 +136,23 @@ pre { white-space: pre-wrap ! important; }
 table.chat { margin-bottom: 5px ! important; }
 form#search_form { display: none ! important; }
 
-table.chat tr.upload_message.user_1071776 td, 
-table.chat tr.sound_message.user_1071776 td, 
-table.chat tr.text_message.user_1071776 td, 
+div#open_bar { display: none ! important; }
+
+tr.propane_alert_match:not(.propane_search) td.body {
+  background-color: #ffffff ! important;
+  color: black;
+}
+
+tr.propane_hidden_enterleave { display: none ! important; }
+
+table.chat tr.upload_message.user_1071776 td,
+table.chat tr.sound_message.user_1071776 td,
+table.chat tr.text_message.user_1071776 td,
 table.chat tr.paste_message.user_1071776 td {
   background-color: #636363 ! important;
   font-weight: bold;
   border:1px solid grey ! important;
+  color: white ! important;
 }
+
+div#upload_form, input[type="file"] { display:none ! important; }
