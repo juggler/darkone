@@ -10,3 +10,5 @@ Copy caveatPatchor.js to this folder:
   ~/Library/Application Support/Propane/unsupported/
 
 Change _user_id class with your Campfire user id.
+
+![Theme screenshot](https://raw.github.com/juggler/darkone/master/screenshot.png)
